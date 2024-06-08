@@ -16,7 +16,7 @@ options.set_capability("acceptInsecureCerts", True)
 driver = webdriver.Chrome(options=options)
 
 # Fetch the web page
-url = "https://xrpscan.com/amms"
+url = ""
 driver.get(url)
 
 # Wait for the page to fully load and for the table to be present
